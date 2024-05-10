@@ -1,0 +1,9 @@
+@use "../../../sass/abstracts/mixins";
+
+.col {
+ //background-color: limegreen;
+ width: 100%;
+ padding: 0 1rem;
+ @include mixins.generateColClasses();
+ @include mixins.generateTextAlignClasses();
+}
