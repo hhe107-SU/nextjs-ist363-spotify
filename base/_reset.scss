@@ -1,0 +1,14 @@
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font: inherit; // Inherit font styles from parent element
+  }
+  ul, li {
+    list-style: none; // Remove bullet points from lists
+  }
+  img {
+    vertical-align: top; // Remove extra space below images
+  }
+  * {
+    box-sizing: border-box; // Invert padding. CSS now includes padding and border in element width
+  }
