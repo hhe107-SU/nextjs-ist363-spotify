@@ -15,7 +15,7 @@ const HomePage = () => {
     "Beyoncé": "Has won 28 Grammy Awards.",
     "Ariana Grande": "Started her career at age of 13.",
     "Thelonious Monk": "Pioneers of the American jazz genre.",
-    "Dizzy Gillespie": "Important to Development of bebop and modern jazz.",
+    "Dizzy Gillespie": "Important to Development of bebop jazz.",
     "Charlie Parker": "Highly influential soloist in jazz.",
     "Sonny Rollins": "Known for his powerful improvisations.",
     "Dexter Gordon": "First tenor players who adopted the bebop style.",
