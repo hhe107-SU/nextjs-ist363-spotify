@@ -54,6 +54,31 @@
   transition: background 200ms, border 200ms;
 }
 
+.highlighted-artist {
+  width: 30%; /* Adjusts width to only take up 30% of the container width */
+  padding: 20px 40px; /* Keeps the padding for better spacing */
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  color: white; /* Ensures text is white for better visibility */
+  text-align: left; /* Keeps text aligned to the left */
+  position: absolute; /* Keeps positioning absolute */
+  bottom: 10%; /* Positions the text block towards the bottom */
+  left: 5%; /* Starts the text block slightly from the left edge */
+  z-index: 10; /* Ensures the text is above other elements */
+  border-radius: 8px; /* Adds rounded corners */
+  max-height: 200px; /* Maximum height to avoid taking too much vertical space */
+  overflow: auto; /* Adds scroll if content is too much */
+}
+
+.highlighted-artist h1, .highlighted-artist p {
+  margin: 8px 0; /* Sufficient margin for clarity */
+  padding: 8px 16px; /* Padding inside text blocks */
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly lighter background for each text element */
+  border-radius: 4px; /* Softens edges with rounded corners */
+}
+
+
+
+
 .card span {
   display: inline-block;
   transition: transform 200ms;
