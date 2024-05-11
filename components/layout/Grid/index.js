@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-import Heading from "../../html/Heading";
 import Paragraph from "../../html/Paragraph";
 import Image from "next/image";
 
